@@ -1,6 +1,7 @@
 #pragma once
 
 #include "common_types.h"
+#include "ingame.h"
 
 typedef union
 { // 0x8
@@ -185,3 +186,6 @@ typedef struct
 } PLYR_WRK;
 
 extern PLYR_WRK plyr_wrk;
+static u_short hp_down_deg;
+
+void PlyrHPdwonCtrl();

@@ -1,5 +1,5 @@
 #include <iostream>
-#include "FatalFrame1/ig_init.h"
+#include "ig_init.h"
 
 
 int main()
