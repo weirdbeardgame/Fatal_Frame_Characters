@@ -3,7 +3,8 @@ Project(Fatal_Character_Tests CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 
-set (SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp ${CMAKE_CURRENT_SOURCE_DIR}/src/ff1_plyr.cpp)
+set (SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp ${CMAKE_CURRENT_SOURCE_DIR}/src/FatalFrame1/ff1_plyr.cpp 
+${CMAKE_CURRENT_SOURCE_DIR}/src/FatalFrame1/ig_init.cpp)
 
 add_executable(Fatal_Character_Tests ${SOURCES})
 
